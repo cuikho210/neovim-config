@@ -11,6 +11,7 @@ set nobackup
 set nowritebackup
 set updatetime=300 " ms
 set signcolumn=yes
+set nocompatible
 
 set incsearch
 set hlsearch

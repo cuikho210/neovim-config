@@ -13,5 +13,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
 Plug 'tomtom/tcomment_vim'
 Plug 'easymotion/vim-easymotion'
+Plug 'sheerun/vim-polyglot'
 
 call plug#end()
