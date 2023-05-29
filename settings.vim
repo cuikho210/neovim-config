@@ -19,3 +19,6 @@ set hlsearch
 set tabstop=4
 set softtabstop=0
 set shiftwidth=4
+
+highlight clear LineNr
+highlight clear SignColumn
