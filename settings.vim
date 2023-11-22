@@ -6,6 +6,7 @@ syntax on
 set encoding=UTF-8
 set mouse=a
 set number
+set relativenumber
 set nowrap
 set nobackup
 set nowritebackup
