@@ -21,7 +21,12 @@ set tabstop=4
 set softtabstop=0
 set shiftwidth=4
 
-set guifont=Intel\ One\ Mono:h11
-
 highlight clear LineNr
 highlight clear SignColumn
+
+" For neovide
+set guifont=Intel\ One\ Mono:h11
+let g:neovide_scroll_animation_length = 0.1
+let g:neovide_hide_mouse_when_typing = v:true
+let g:neovide_cursor_animation_length = 0.04
+let g:neovide_cursor_vfx_mode = "railgun"
