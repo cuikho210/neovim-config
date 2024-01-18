@@ -25,7 +25,7 @@ highlight clear LineNr
 highlight clear SignColumn
 
 " For neovide
-set guifont=Intel\ One\ Mono:h11
+set guifont=Intel\ One\ Mono:h10
 let g:neovide_scroll_animation_length = 0.1
 let g:neovide_hide_mouse_when_typing = v:true
 let g:neovide_cursor_animation_length = 0.04
