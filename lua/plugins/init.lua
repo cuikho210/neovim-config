@@ -6,16 +6,14 @@ local plugins = {
 	"nvim-tree/nvim-web-devicons", -- Icons
 	"RRethy/vim-illuminate", -- Highlight all the same words under the cursor
 	{ "lukas-reineke/indent-blankline.nvim", main = "ibl" },
+
 	{ -- Tabline
 		'akinsho/bufferline.nvim',
+		after = "catppuccin",
 		version = "*",
 		dependencies = 'nvim-tree/nvim-web-devicons',
-		config = function ()
-			require("bufferline").setup {
-				highlights = require("catppuccin.groups.integrations.bufferline").get()
-			}
-		end
 	},
+
 	{ -- Greater
 		'goolord/alpha-nvim',
 		config = function ()
@@ -53,9 +51,6 @@ local plugins = {
 
 	-- Toggle comment
 	"tomtom/tcomment_vim",
-
-	-- File management
-	"nvim-tree/nvim-tree.lua",
 }
 
 require("lazy").setup(plugins)
@@ -68,4 +63,4 @@ require("plugins.lspconfig")
 require("plugins.treesitter")
 require("plugins.telescope")
 require("plugins.coc")
-require("plugins.nvim_tree")
+require("plugins.bufferline")
