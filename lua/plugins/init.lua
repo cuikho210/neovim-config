@@ -53,9 +53,13 @@ local plugins = {
 
 	-- Toggle comment
 	"tomtom/tcomment_vim",
+
+	-- File management
+	"nvim-tree/nvim-tree.lua",
 }
 
 require("lazy").setup(plugins)
+
 require("plugins.catppuccin")
 require("plugins.aerial")
 require("plugins.indent_blankline")
@@ -64,3 +68,4 @@ require("plugins.lspconfig")
 require("plugins.treesitter")
 require("plugins.telescope")
 require("plugins.coc")
+require("plugins.nvim_tree")
