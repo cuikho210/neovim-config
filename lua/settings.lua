@@ -1,0 +1,26 @@
+
+vim.api.nvim_command('filetype plugin on')
+vim.api.nvim_command('filetype plugin indent on')
+vim.api.nvim_command('syntax on')
+
+vim.opt.encoding = "UTF-8"
+vim.opt.mouse = "a"
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.wrap = false
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 0
+vim.opt.shiftwidth = 4
+vim.opt.termguicolors = true
+
+vim.api.nvim_command('highlight clear LineNr')
+vim.api.nvim_command('highlight clear SignColumn')
+
+-- For neovide
+vim.api.nvim_command('set guifont=IntoneMono\\ Nerd\\ Font:h10')
+vim.g.neovide_scroll_animation_length = 0.08
+vim.g.neovide_hide_mouse_when_typing = true
+vim.g.neovide_cursor_animation_length = 0
+vim.g.neovide_cursor_vfx_mode = "railgun"
