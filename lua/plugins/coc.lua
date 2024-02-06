@@ -53,7 +53,7 @@ keyset("i", "<c-space>", "coc#refresh()", {silent = true, expr = true})
 -- Use `:CocDiagnostics` to get all diagnostics of current buffer in location list
 keyset("n", "[g", "<Plug>(coc-diagnostic-prev)", {silent = true})
 keyset("n", "]g", "<Plug>(coc-diagnostic-next)", {silent = true})
-keyset("n", "<leader>d", "<Plug>(coc-diagnostic-toggle)", {silent = true})
+keyset("n", "<leader>d", "<cmd>CocDiagnostics<CR>", {silent = true})
 
 -- GoTo code navigation
 keyset("n", "gd", "<Plug>(coc-definition)", {silent = true})
