@@ -50,6 +50,9 @@ local plugins = {
 
 	-- Completion
 	{'neoclide/coc.nvim', branch = 'release'},
+
+	-- Toggle comment
+	"tomtom/tcomment_vim",
 }
 
 require("lazy").setup(plugins)
