@@ -19,8 +19,8 @@ vim.api.nvim_command('highlight clear LineNr')
 vim.api.nvim_command('highlight clear SignColumn')
 
 -- Disable netrw
--- vim.g.loaded_netrwPlugin = 1
--- vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+vim.g.loaded_netrw = 1
 
 -- For neovide
 vim.api.nvim_command('set guifont=IntoneMono\\ Nerd\\ Font:h10')
