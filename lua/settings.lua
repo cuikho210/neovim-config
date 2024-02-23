@@ -23,7 +23,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.g.loaded_netrw = 1
 
 -- For neovide
-vim.api.nvim_command('set guifont=IntoneMono\\ Nerd\\ Font:h10')
+vim.api.nvim_command('set guifont=IntoneMono\\ Nerd\\ Font:h11')
 vim.g.neovide_scroll_animation_length = 0.08
 vim.g.neovide_hide_mouse_when_typing = true
 vim.g.neovide_cursor_animation_length = 0
