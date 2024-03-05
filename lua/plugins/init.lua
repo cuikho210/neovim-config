@@ -6,6 +6,7 @@ local plugins = {
 	"nvim-tree/nvim-web-devicons", -- Icons
 	"RRethy/vim-illuminate", -- Highlight all the same words under the cursor
 	{ "lukas-reineke/indent-blankline.nvim", main = "ibl" },
+	'vimpostor/vim-lumen', -- Sync background with system-wide color scheme
 
 	{ -- Tabline
 		'akinsho/bufferline.nvim',
