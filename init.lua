@@ -15,3 +15,4 @@ vim.opt.rtp:prepend(lazypath)
 
 require("settings")
 require("plugins")
+require("theme")
