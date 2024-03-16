@@ -1,1 +1,1 @@
-vim.opt.background = "light"
+vim.opt.background = "dark"

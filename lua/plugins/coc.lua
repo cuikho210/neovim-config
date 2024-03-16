@@ -9,6 +9,7 @@ vim.g.coc_global_extensions = {
 	"coc-pyright",
 	"coc-sh",
 	"coc-rust-analyzer", "coc-toml",
+	"coc-flutter",
 }
 
 -- Some servers have issues with backup files, see #649

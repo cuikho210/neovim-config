@@ -8,12 +8,12 @@ is_dark_mode=$(echo "$config" | grep "$pattern_dark")
 
 function to_light() {
 	echo "$pattern_light" > "$config_path"
-	echo "Theme has changed to light"
+	echo "Neovim theme has changed to light"
 }
 
 function to_dark() {
 	echo "$pattern_dark" > "$config_path"
-	echo "Theme has changed to dark"
+	echo "Neovim theme has changed to dark"
 }
 
 function toggle_theme() {

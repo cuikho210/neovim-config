@@ -66,7 +66,10 @@ local plugins = {
 	},
 
 	-- Syntax highlight for rofi config
-	"Fymyte/rasi.vim"
+	"Fymyte/rasi.vim",
+
+	-- Dart and flutter
+	"dart-vim-plugin",
 }
 
 require("lazy").setup(plugins)
