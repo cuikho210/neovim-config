@@ -70,6 +70,11 @@ local plugins = {
 
 	-- Dart and flutter
 	"dart-vim-plugin",
+	'reisub0/hot-reload.vim', -- Hot reload for flutter
+
+	-- CSharp
+	'OmniSharp/omnisharp-vim',
+	'jlcrochet/vim-razor',
 }
 
 require("lazy").setup(plugins)
