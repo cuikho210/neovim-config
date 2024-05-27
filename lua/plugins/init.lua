@@ -4,7 +4,6 @@ local plugins = {
 	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	{ 'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' } }, -- Status line
 	"nvim-tree/nvim-web-devicons", -- Icons
-	"RRethy/vim-illuminate", -- Highlight all the same words under the cursor
 	{ "lukas-reineke/indent-blankline.nvim", main = "ibl" },
 	'vimpostor/vim-lumen', -- Sync background with system-wide color scheme
 
