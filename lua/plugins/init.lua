@@ -74,6 +74,9 @@ local plugins = {
 	-- CSharp
 	'OmniSharp/omnisharp-vim',
 	'jlcrochet/vim-razor',
+
+	-- Git
+	'tpope/vim-fugitive',
 }
 
 require("lazy").setup(plugins)
