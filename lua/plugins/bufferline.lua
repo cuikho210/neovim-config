@@ -24,5 +24,5 @@ function TabMovePrevious()
   end
 end
 
-vim.api.nvim_set_keymap('n', '<C-S-PageUp>', ':lua TabMoveNext()<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<C-S-PageDown>', ':lua TabMovePrevious()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-S-PageDown>', ':lua TabMoveNext()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-S-PageUp>', ':lua TabMovePrevious()<CR>', { noremap = true, silent = true })
