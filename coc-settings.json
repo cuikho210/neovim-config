@@ -6,5 +6,6 @@
           "rootPatterns": ["*.csproj", ".vim/", ".git/", ".hg/"]
         },
     },
-	"inlayHint.enable": false
+	"inlayHint.enable": false,
+	"coc.preferences.jumpCommand": "tab drop"
 }
