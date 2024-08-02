@@ -28,3 +28,8 @@ vim.g.neovide_scroll_animation_length = 0.08
 vim.g.neovide_hide_mouse_when_typing = true
 vim.g.neovide_cursor_animation_length = 0
 vim.g.neovide_cursor_vfx_mode = "railgun"
+
+-- Keymap for using system clipboard
+vim.keymap.set("n", "<leader>y", '"+y', { silent = true })
+vim.keymap.set("v", "<leader>y", '"+y', { silent = true })
+vim.keymap.set("n", "<leader>p", '"+p', { silent = true })
