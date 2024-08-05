@@ -7,5 +7,6 @@
         },
     },
 	"inlayHint.enable": false,
-	"coc.preferences.jumpCommand": "tab drop"
+	"coc.preferences.jumpCommand": "tab drop",
+	"flutter.lsp.initialization.closingLabels": false
 }
