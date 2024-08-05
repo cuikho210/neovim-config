@@ -10,6 +10,7 @@ vim.g.coc_global_extensions = {
 	"coc-sh",
 	"coc-rust-analyzer", "coc-toml",
 	"coc-flutter",
+	"@onichandame/coc-proto3",
 }
 
 -- Some servers have issues with backup files, see #649
