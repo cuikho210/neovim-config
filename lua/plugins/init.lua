@@ -68,8 +68,8 @@ local plugins = {
 	"Fymyte/rasi.vim",
 
 	-- Dart and flutter
-	"dart-vim-plugin",
-	'reisub0/hot-reload.vim', -- Hot reload for flutter
+	"dart-lang/dart-vim-plugin",
+	-- 'reisub0/hot-reload.vim', -- Hot reload for flutter
 
 	-- CSharp
 	'OmniSharp/omnisharp-vim',
