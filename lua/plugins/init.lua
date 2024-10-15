@@ -69,7 +69,7 @@ local plugins = {
 
 	-- Dart and flutter
 	"dart-lang/dart-vim-plugin",
-	-- 'reisub0/hot-reload.vim', -- Hot reload for flutter
+	'reisub0/hot-reload.vim', -- Hot reload for flutter
 
 	-- CSharp
 	'OmniSharp/omnisharp-vim',

@@ -10,9 +10,9 @@ vim.opt.relativenumber = true
 vim.opt.wrap = false
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
-vim.opt.tabstop = 4
+vim.opt.tabstop = 2
 vim.opt.softtabstop = 0
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
 vim.opt.termguicolors = true
 
 vim.api.nvim_command('highlight clear LineNr')
